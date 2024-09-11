@@ -254,15 +254,21 @@ address {
     color: #434455;
 }
 
+.benefits-section {
+    padding: 120px 0 120px;
+}
+
 .benefits-list {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
     gap: 24px;
 }
 
 .benefits-title {
     margin-bottom: 8px;
+}
+
+.benefits-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 
