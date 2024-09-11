@@ -7,6 +7,33 @@ body {
     background-color: #FFFFFF;
 }
 
+
+/*============== Reset ==============*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
 button {
     cursor: pointer;
 }
@@ -15,8 +42,22 @@ a {
     text-decoration: none;
 }
 
-ul {
-    list-style-type: none;
+
+/*============== /Reset ==============*/
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*============== Header ==============*/
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -48,6 +89,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
 }
 
 .contacts-link:hover,
@@ -60,12 +102,47 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 
 .header-link:hover,
 .header-link:focus {
     color: #404bbf;
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-logo {
+    margin-right: 76px;
+    padding: 24px 0;
+}
+
+.header-navigation-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-address {
+    margin-left: auto;
+}
+
+
+/*============== /Header ==============*/
 
 .main-title {
     font-weight: 700;
@@ -75,19 +152,33 @@ address {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    padding-top: 188px;
+    margin-bottom: 48px;
+    margin: 0 auto;
 }
 
 .main-button {
+    width: 169px;
+    height: 56px;
     font-weight: 500;
     background: #4d5ae5;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    margin: 0 auto;
+}
+
+.main-button-container {
+    padding-bottom: 188px;
 }
 
 .main-button:hover,
 .main-button:focus {
     background-color: #404BBF
+}
+
+.hero-container {
+    background-color: #2e2f42;
 }
 
 .benefits-title {
@@ -146,10 +237,6 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-}
-
-.site-top-section {
-    background-color: #2e2f42;
 }
 
 .team-section {
