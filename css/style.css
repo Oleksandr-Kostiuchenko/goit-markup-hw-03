@@ -118,6 +118,7 @@ address {
 
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .header-logo {
