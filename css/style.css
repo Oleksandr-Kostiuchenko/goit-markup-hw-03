@@ -351,7 +351,7 @@ address {
 }
 
 .list-title {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .list-description {}
@@ -387,10 +387,21 @@ address {
     letter-spacing: 0.02em;
 }
 
+
+/*============== /PORTFOLIO SECTION ==============*/
+
+
+/*============== FOOTER SECTION ==============*/
+
+.footer-section {
+    padding: 100px 0;
+}
+
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    margin-top: 16px;
 }
 
 .footer-section {
