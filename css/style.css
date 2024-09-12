@@ -289,6 +289,30 @@ address {
     color: #f4f4fd;
 }
 
+
+/*============== TEAM SECTION ==============*/
+
+.team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-member-description {
+    justify-content: center;
+    /* border: #2e2f42 solid 1px; */
+}
+
+.team-list-item {
+    width: 264px;
+    height: 380px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100% - 72px)/4);
+}
+
 .team-section {
     background-color: #F4F4FD
 }
@@ -302,7 +326,7 @@ address {
 }
 
 .team-list li {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .footer-section {
